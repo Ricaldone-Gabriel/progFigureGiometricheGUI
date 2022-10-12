@@ -22,7 +22,7 @@ import javax.swing.JPanel;
  */
 public class ProgFigureGeometricheGUI implements ActionListener{
     /**
-     * @param args the command line arguments
+     * @param args the command line arguments sus
      */
     
     int cont=0;
