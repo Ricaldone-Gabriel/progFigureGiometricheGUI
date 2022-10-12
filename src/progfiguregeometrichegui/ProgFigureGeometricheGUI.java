@@ -11,12 +11,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JFormattedTextField;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 
-/**
+/** sus
  *
  * @author gabriel.ricaldone
  */
@@ -38,12 +38,12 @@ public class ProgFigureGeometricheGUI implements ActionListener{
     private JButton pulsanteCerchio;
     private JButton pulsanteConferma;
     
-    private JFormattedTextField inputBase;
-    private JFormattedTextField inputAltezza;
-    private JFormattedTextField inputRaggio;
-    private JFormattedTextField inputLato1;
-    private JFormattedTextField inputLato2;
-    private JFormattedTextField inputLato3;
+    private JTextField textFieldLato1;
+    private JTextField textFieldLato2;
+    private JTextField textFieldLato3;
+    private JTextField textFieldBase;
+    private JTextField textFieldAltezza;
+    private JTextField textFieldRaggio;
     //sus1
     
     public ProgFigureGeometricheGUI(){
@@ -58,11 +58,13 @@ public class ProgFigureGeometricheGUI implements ActionListener{
         pulsanteTriangolo.addActionListener(this);
         pulsanteCerchio = new JButton("Cerchio");
         pulsanteCerchio.addActionListener(this);
+        //Creazione input testo
+        
         
         //Creazione Label
         labelArea = new JLabel("Area: 0");
         labelPerimetro = new JLabel("Perimetro: 0");
-        
+         
         //Grandezza finestra e layout
         JPanel panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(60, 60, 60, 60));
@@ -100,6 +102,12 @@ public class ProgFigureGeometricheGUI implements ActionListener{
                 break;
             case "Rettangolo":
                 break;
+            case "Conferma":
+                break;
+            case "Perimetro":
+                break;
+            case "Area":
+                break;  
         }
     }
     
