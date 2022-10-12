@@ -17,5 +17,5 @@ public class figureGiometriche {
     private int lato2;
     private int lato3;
     
-    //sus2
+    //sus22
 }
