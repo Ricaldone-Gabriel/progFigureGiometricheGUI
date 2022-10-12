@@ -44,7 +44,7 @@ public class ProgFigureGeometricheGUI implements ActionListener{
     private JFormattedTextField inputLato1;
     private JFormattedTextField inputLato2;
     private JFormattedTextField inputLato3;
-    //sus
+    //sus1
     
     public ProgFigureGeometricheGUI(){
         frame = new JFrame();
