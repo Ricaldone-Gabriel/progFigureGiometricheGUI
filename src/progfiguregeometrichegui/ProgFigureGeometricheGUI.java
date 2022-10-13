@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 /** sus
- *
+ *jkjjk
  * @author gabriel.ricaldone
  */
 public class ProgFigureGeometricheGUI implements ActionListener{
